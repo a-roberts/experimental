@@ -1,9 +1,9 @@
 # Installing Official Releases
 <br/>
 
-Run the [`kubectl apply`](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#apply) command to perform installation.  By default the installation will be into a namespace called "tekton-pipelines".  
+Run the [`kubectl apply`](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#apply) command to perform installation.  By default the installation will be into a namespace called "tekton-pipelines", except on OpenShift where "openshift-pipelines" will be used.  
 
-If the Tekton Dashboard has been installed into a namespace other than "tekton-pipelines", then you will need to ensure you install the Webhooks Extension component into the same namespace.  Instructions for installing into an alternative namespace are provided below the standard install instructions.
+If the Tekton Dashboard has been installed into a namespace other than "tekton-pipelines" or "openshift-pipelines", then you will need to ensure you install the Webhooks Extension component into the same namespace.  Instructions for installing into an alternative namespace are provided below the standard install instructions.
 <br/>
 <br/>
 

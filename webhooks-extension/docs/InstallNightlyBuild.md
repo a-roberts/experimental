@@ -61,7 +61,7 @@ You will be able to access the webhooks section of the dashboard once the pods a
     Run the [`kubectl get`](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#get) pods command to monitor the Tekton Dashboard Webhooks Extension component until all of the components show a `STATUS` of `Running`:
 
     ```bash
-    kubectl get pods --namespace tekton-pipelines --watch
+    kubectl get pods --namespace tekton-pipelines --watch (use openshift-pipelines if on OpenShift)
     ```
     _Tip: Use CTRL + C to exit watch mode._
 <br/>
